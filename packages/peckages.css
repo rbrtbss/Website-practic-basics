@@ -8,7 +8,9 @@ main {
   border-left: none;
 }
 .package:hover,
-.package:active {
+.package:active,
+#free:hover,
+#free:active {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.501);
   border-color: #ff5454;
 }
@@ -44,6 +46,7 @@ main {
   float: right;
   border-right: none;
   border-left: 4px solid #0e4f1f;
+  text-align: right;
 }
 #premium {
   background: rgba(14, 79, 31, 0.95);
