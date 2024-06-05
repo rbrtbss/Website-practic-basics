@@ -1,2 +1,6 @@
 # secrets.txt
 secrets.txt
+# ignore specific files:
+.vscode
+# dont ! ignore few json settings:
+!.vscode/settings.json
