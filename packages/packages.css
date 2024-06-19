@@ -3,7 +3,13 @@ main {
 }
 
 .background {
-  background: url(../img/plans-background.jpg);
+  background: linear-gradient(
+      0deg,
+      rgba(86, 41, 200, 0.355) 39%,
+      rgba(200, 125, 33, 0.6) 100%
+    ),
+    url(../img/plans-background.jpg) center / cover no-repeat border-box;
+  filter: grayscale(40%);
   width: 100%;
   height: 100%;
   position: fixed;
