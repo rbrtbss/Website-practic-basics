@@ -4,11 +4,12 @@
       rgba(127, 255, 212, 0.3),
       rgba(250, 128, 114, 0.6)
     ),
-    url("./img/freedom.jpg") center / cover no-repeat border-box, #ff0000;
+    url("./img/freedom.jpg") left 50% bottom 90% / cover no-repeat border-box,
+    #ff0000;
   /* background-image: linear-gradient(90deg, blue 70%, pink 100%); */
   /* background-image: radial-gradient(circle 190px at center, blue 50%, pink); */
-  width: 100%;
-  height: 52.8rem;
+  width: 100vw;
+  height: 40vh;
   padding: 4.3rem 1rem 1rem 1rem;
   position: relative;
 }
