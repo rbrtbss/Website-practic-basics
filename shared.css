@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+html {
+  font-size: 62.5%;
+}
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -60,6 +63,7 @@ body {
 .main-nav__item {
   display: inline-block;
   margin: 0 16px;
+  font-size: 1.6rem;
 }
 
 .main-nav__item a {
@@ -103,6 +107,7 @@ body {
 .main-footer__link {
   display: inline-block;
   margin: 0 16px;
+  font-size: 1.6rem;
 }
 .main-footer__link a:link,
 .main-footer__link a:visited {
