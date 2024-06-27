@@ -7,6 +7,7 @@
 
 .testimonial__image-container {
   width: 65%;
+  max-width: 580px;
   display: inline-block;
   vertical-align: top;
   /* box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.35); */
