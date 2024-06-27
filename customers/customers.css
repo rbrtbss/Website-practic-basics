@@ -1,13 +1,17 @@
+/* html {
+  font-size: 62.5%;
+} */
+
 /* mine */
 .testimonial {
-  font-size: 20px;
+  font-size: 2rem;
   /* margin: 48px 0; */
-  padding: 42px 0;
+  padding: 4.2rem 0;
 }
 
 .testimonial__image-container {
   width: 65%;
-  max-width: 580px;
+  max-width: 58rem;
   display: inline-block;
   vertical-align: top;
   /* box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.35); */
@@ -25,12 +29,12 @@
 
 .testimonial:first-of-type {
   /* margin-top: 96px; */
-  padding-top: 96px;
+  padding-top: 9.6rem;
 }
 
 .testimonial__info {
   text-align: left;
-  padding: 14px;
+  padding: 1.4rem;
   display: inline-block;
   vertical-align: top;
   width: 30%;
@@ -51,7 +55,7 @@
 
 .testimonial__subtitle {
   margin: 0;
-  font-size: 18px;
+  font-size: 1.8rem;
   color: #ccc;
 }
 
