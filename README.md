@@ -10,6 +10,6 @@
 
 ===
 
-This course is highly recommended for those who are new to Web Design or for those who want to brush up their knowladge. I will include the link for the course below.
+_This course is highly recommended for those who are new to Web Design or for those who want to brush up their knowladge. I will include the link for the course below._
 
 [++CSS - The Complete Guide 2024++](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/learn/lecture/9566924#overview)
