@@ -1,10 +1,26 @@
+/* GENERAL RESET: */
 * {
   box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
+}
+
+/* BACKDROP: */
+.backdrop {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .main-header {
@@ -48,6 +64,7 @@ body {
 .main-nav__item {
   display: inline-block;
   margin: 0 16px;
+  font-size: 1.6rem;
 }
 
 .main-nav__item a {
@@ -91,6 +108,7 @@ body {
 .main-footer__link {
   display: inline-block;
   margin: 0 16px;
+  font-size: 1.6rem;
 }
 .main-footer__link a:link,
 .main-footer__link a:visited {
