@@ -36,7 +36,6 @@ body {
 
 /* Toggle button: */
 .toggle-btn {
-  /* display: none; */
   width: 2.5rem;
   background: transparent;
   border: none;
@@ -165,7 +164,7 @@ body {
 /* Mobile nav css: */
 
 .mobile-nav {
-  display: block;
+  display: none;
   justify-content: center;
   position: fixed;
   top: 0;
