@@ -2,7 +2,10 @@
 
 // work on modal:
 
-// assigned-variables:
+// assigned- all variables ===============:
+/**
+ * assign all variables
+ */
 let backdrop = document.querySelector(".backdrop");
 let selectPlanButtons = document.querySelectorAll(".plan button");
 let modal = document.querySelector(".modal");
