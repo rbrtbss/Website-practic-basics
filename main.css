@@ -179,7 +179,7 @@
   border-color: #ff5454;
 }
 
-/* MEDIA QUERY */
+/* MEDIA QUERY =============================*/
 @media screen and (width <= 768px) {
   .main-nav {
     display: none;
