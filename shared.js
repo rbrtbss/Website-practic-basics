@@ -35,6 +35,7 @@ function openNav() {
 }
 function closeNav() {
   mobileNav.style.display = "none";
+  backdrop.style.display = "none";
 }
 
 // check if selections is right:
@@ -48,10 +49,13 @@ for (let i = 0; i < selectPlanButtons.length; i++) {
 modalBtnNo.addEventListener("click", closeModal);
 
 // close modal by clicking on "Background":
-backdrop.addEventListener("click", closeModal);
+backdrop.addEventListener("click", function () {
+  closeNav();
+  closeModal();
+});
 
 // addEventListener to open mobile navigation:
 toggleBtn.addEventListener("click", openNav);
 
 // close mobileNavigation by clicking on "Background":
-backdrop.addEventListener("click", closeNav);
+// backdrop.addEventListener("click", closeNav);
