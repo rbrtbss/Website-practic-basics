@@ -20,31 +20,48 @@ let mobileNav = document.querySelector(".mobile-nav");
 // NAMED FUNCTIONS:
 // named function: open modal
 function openModal() {
-  modal.style.display = "block";
-  backdrop.style.display = "block";
+  modal.classList.add("open");
+  backdrop.classList.add("open");
+
+  // modal.style.display = "block";
+  // backdrop.style.display = "block";
 }
 // named function: close modal
 function closeModal() {
-  modal.style.display = "none";
-  backdrop.style.display = "none";
+  modal.classList.remove("open");
+  backdrop.classList.remove("open");
+
+  // modal.style.display = "none";
+  // backdrop.style.display = "none";
 }
 // named function: mobile nav
 function openNav() {
-  mobileNav.style.display = "block";
-  backdrop.style.display = "block";
+  mobileNav.classList.add("open");
+  backdrop.classList.add("open");
+
+  // mobileNav.style.display = "block";
+  // backdrop.style.display = "block";
 }
 function closeNav() {
-  mobileNav.style.display = "none";
-  backdrop.style.display = "none";
+  mobileNav.classList.remove("open");
+  backdrop.classList.remove("open");
+
+  // mobileNav.style.display = "none";
+  // backdrop.style.display = "none";
 }
 
 // check if selections is right:
-console.dir(modal);
+console.dir(backdrop);
 // ====================
 // open modal:
 for (let i = 0; i < selectPlanButtons.length; i++) {
   selectPlanButtons[i].addEventListener("click", openModal);
 }
+// for (let i = 0; i < selectPlanButtons.length; i++) {
+//   selectPlanButtons[i].addEventListener("click", function () {
+//     openModal();
+//   });
+// }
 // close modal by clicking on "No":
 modalBtnNo.addEventListener("click", closeModal);
 

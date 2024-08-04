@@ -201,3 +201,9 @@ body {
 .mobile-nav__item {
   margin: 0.5rem 0;
 }
+
+/* Manipulating Class Elements */
+
+.open {
+  display: block !important;
+}
