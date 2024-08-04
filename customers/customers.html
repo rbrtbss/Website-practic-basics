@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>uHost</title>
     <!-- ICON -->
-    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="shortcut icon" href="../img/favicon.png" />
     <!-- GOOGLE FONT: ANTON -->
     <link
       href="https://fonts.googleapis.com/css?family=Anton"
@@ -19,7 +19,7 @@
     <!-- SHARED CSS: -->
     <link rel="stylesheet" href="../shared.css" />
     <!-- customers CSS: -->
-    <link rel="stylesheet" href="/customers/customers.css" />
+    <link rel="stylesheet" href="./customers.css" />
   </head>
 
   <body>
@@ -28,6 +28,12 @@
     <!-- Header and navigation: -->
     <header class="main-header">
       <div>
+        <!-- Toggle  -->
+        <button class="toggle-btn">
+          <span class="toggle-btn__bar"></span>
+          <span class="toggle-btn__bar"></span>
+          <span class="toggle-btn__bar"></span>
+        </button>
         <a href="../index.html" class="main-header__brand">
           <img src="../img/uhost-icon.png" alt="uHost - web hosting" />
         </a>
@@ -50,6 +56,20 @@
         </ul>
       </nav>
     </header>
+    <!-- Mobile navigation: -->
+    <nav class="mobile-nav">
+      <ul class="mobile-nav__items">
+        <li class="mobile-nav__item">
+          <a href="/packages/packages.html">Packages</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="/customers/customers.html">Customers</a>
+        </li>
+        <li class="mobile-nav__item mobile-nav__item--cta">
+          <a href="start-hosting/index.html">Start Hosting</a>
+        </li>
+      </ul>
+    </nav>
     <!-- ======================= MAIN: -->
     <main>
       <div>
@@ -103,5 +123,7 @@
         </ul>
       </nav>
     </footer>
+    <!-- JavaScript: -->
+    <script src="/shared.js"></script>
   </body>
 </html>

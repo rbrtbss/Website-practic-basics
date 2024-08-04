@@ -51,7 +51,7 @@ function closeNav() {
 }
 
 // check if selections is right:
-console.dir(backdrop);
+console.dir(backdrop.style["background-image"]);
 // ====================
 // open modal:
 for (let i = 0; i < selectPlanButtons.length; i++) {
@@ -63,8 +63,9 @@ for (let i = 0; i < selectPlanButtons.length; i++) {
 //   });
 // }
 // close modal by clicking on "No":
-modalBtnNo.addEventListener("click", closeModal);
-
+if (modalBtnNo) {
+  modalBtnNo.addEventListener("click", closeModal);
+}
 // close modal by clicking on "Background":
 backdrop.addEventListener("click", function () {
   closeNav();
