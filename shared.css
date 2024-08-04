@@ -93,11 +93,14 @@ body {
   font-size: 1.6rem;
 }
 
-.main-nav__item a {
+.main-nav__item a,
+.mobile-nav__item a {
   text-decoration: none;
   color: #0e4f1f;
   font-weight: bold;
   padding: 0.3rem 0;
+  font-size: 1.5rem;
+  transition: all 0.3s;
 }
 
 .main-nav__item a:hover,
@@ -106,15 +109,19 @@ body {
   border-bottom: 5px solid white;
 }
 
-.main-nav__item--cta a {
+.main-nav__item--cta a:link,
+.mobile-nav__item--cta a:link {
   color: white;
   background: #ff1b68;
   padding: 0.8rem 1.6rem;
   border-radius: 0.8rem;
+  transition: all 0.3s;
 }
 
 .main-nav__item--cta a:hover,
-.main-nav__item--cta a:active {
+.main-nav__item--cta a:active,
+.mobile-nav__item--cta a:active,
+.mobile-nav__item--cta a:hover {
   color: #ff1b68;
   background: white;
   border: none;
@@ -169,7 +176,6 @@ body {
 }
 
 /* Mobile nav css: */
-
 .mobile-nav {
   display: none;
   justify-content: center;
@@ -181,7 +187,6 @@ body {
   z-index: 101;
   background-color: white;
 }
-
 .mobile-nav__items {
   padding-left: 0;
   height: 100%;
@@ -193,25 +198,6 @@ body {
   justify-content: flex-start;
   margin: 4rem auto;
 }
-
 .mobile-nav__item {
   margin: 0.5rem 0;
-}
-.mobile-nav__item a {
-  text-decoration: none;
-  color: #0e4f1f;
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-.mobile-nav__item--cta a:link {
-  background-color: #ff1b68;
-  color: #fff;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  transition: all 0.3s;
-}
-.mobile-nav__item--cta a:active,
-.mobile-nav__item--cta a:hover {
-  background-color: #fff;
-  color: #ff1b68;
 }
